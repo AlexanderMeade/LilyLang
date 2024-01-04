@@ -16,7 +16,6 @@ LFB10:
 	.cfi_def_cfa_register 5
 	andl  $-16, %esp
 	call   ___main
-	call _print
 	leave
 	.cfi_restore 5
 	.cfi_def_cfa 4, 4
@@ -27,4 +26,3 @@ LFB10:
 
 LFE11:
 	.ident	"GCC: (MinGW.org GCC-6.3.0-1) 6.3.0"
-	.def	_print;	.scl	2;	.type	32;	.endef
